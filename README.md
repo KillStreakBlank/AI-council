@@ -22,7 +22,7 @@ The AI Council employs a weighted voting system to ensure that each AI model's c
 - [Future Work](#future-work)
 - [Acknowledgments](#acknowledgments)
 
-sh Copy code python -m venv venv source venv/bin/activate # On Windows, use venv\Scripts\activate pip install -r requirements.txt Add Your API Keys: Create a .env file in the project root and add your API keys:
+Copy code python -m venv venv source venv/bin/activate # On Windows, use venv\Scripts\activate pip install -r requirements.txt Add Your API Keys: Create a .env file in the project root and add your API keys:
 
 plaintext Copy code OPENAI_API_KEY=your_openai_api_key GROK_API_KEY=your_grok_api_key OLLAMA_API_KEY=your_ollama_api_key BARD_API_KEY=your_bard_api_key CHATGPT_API_KEY=your_chatgpt_api_key WATSON_API_KEY=your_watson_api_key CLAUDE_API_KEY=your_claude_api_key Usage To run the AI Council system:
 
