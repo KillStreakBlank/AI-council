@@ -1,7 +1,3 @@
-I see the issue with the formatting. Let's address it by making sure each code block and instruction is correctly formatted:
-
-markdown
-Copy code
 # AI Council
 
 An ambitious and probably impossible idea to get many AI to work together on a task using weighted voting based on each AI's abilities.
