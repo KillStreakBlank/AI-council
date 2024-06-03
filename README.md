@@ -1,7 +1,3 @@
-Let's fix the formatting issue more carefully. It looks like the problem is occurring with the inline code blocks and multiline code blocks. Here is the corrected README:
-
-markdown
-Copy code
 # AI Council
 
 An ambitious and probably impossible idea to get many AI to work together on a task using weighted voting based on each AI's abilities.
