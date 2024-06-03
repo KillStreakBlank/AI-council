@@ -54,7 +54,7 @@ You can input tasks for the AI Council to solve. For example:
 
 python
 Copy code
-task = "What is the Meaning of Life."
+task = "Find the Meaning of Life."
 task_skills = ["Code"]
 best_solution = council.handle_task(task, task_skills)
 print(best_solution)
