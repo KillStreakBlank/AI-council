@@ -17,16 +17,18 @@ The AI Council employs a weighted voting system to ensure that each AI model's c
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+- [Project Goals](#project-goals)
+- [Technologies Used](#technologies-used)
+- [Future Work](#future-work)
+- [Acknowledgments](#acknowledgments)
 
 ## Installation
 
 1. **Clone the Repository**:
    ```sh
-   git clone https://github.com/killstreakblank/AI-Council.git
+   git clone https://github.com/KillStreakBlank/AI-Council.git
    cd AI-Council
-
 Set Up a Virtual Environment and Install Dependencies:
-
 
 sh
 Copy code
@@ -56,7 +58,7 @@ You can input tasks for the AI Council to solve. For example:
 
 python
 Copy code
-task = "Write a Python function to add two numbers."
+task = "Find the Meaning of Life."
 task_skills = ["Code"]
 best_solution = council.handle_task(task, task_skills)
 print(best_solution)
@@ -68,7 +70,7 @@ Fork the Repository: Click on the 'Fork' button on the top right corner of this 
 Clone Your Fork: Clone your forked repository to your local machine.
 sh
 Copy code
-git clone https://github.com/killstreakblank/AI-Council.git
+git clone https://github.com/KillStreakBlank/AI-Council.git
 cd AI-Council
 Create a Branch: Create a new branch for your feature or bug fix.
 sh
