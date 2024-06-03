@@ -90,7 +90,7 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Contact
-For any questions or suggestions, feel free to open an issue or contact me at [coleman.jeremy80@gmail.com].
+For any questions or suggestions, feel free to open an issue or contact me at coleman.jeremy80@gmail.com.
 
 Project Goals
 Improve Collaborative Decision-Making: Enhance the ability of AI models to collaboratively solve complex tasks.
