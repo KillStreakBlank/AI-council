@@ -24,6 +24,7 @@ The AI Council employs a weighted voting system to ensure that each AI model's c
    ```sh
    git clone https://github.com/killstreakblank/AI-Council.git
    cd AI-Council
+
 Set Up a Virtual Environment and Install Dependencies:
 
 sh
