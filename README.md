@@ -1,4 +1,4 @@
-I see the issue now. It seems that the Markdown formatting for the headings and the code blocks might not be rendering correctly in GitHub. Let's make sure all headings and code blocks are properly formatted:
+I see the issue with the formatting. Let's address it by making sure each code block and instruction is correctly formatted:
 
 markdown
 Copy code
@@ -102,7 +102,7 @@ Leverage Diverse AI Strengths: Utilize the unique strengths of different AI mode
 Develop Weighted Voting System: Create a dynamic system that adjusts the influence of each AI model based on performance and expertise.
 Technologies Used
 Programming Language: Python
-AI Models: Codex, Grok, Ollama, Bard, ChatGPT, Watson, Claude
+AI Models: GPT-4, Codex, Grok, Ollama, Bard, ChatGPT, Watson, Claude
 APIs: Various AI model APIs
 Libraries: Requests, dotenv, other relevant Python libraries
 Future Work
