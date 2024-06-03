@@ -22,91 +22,16 @@ The AI Council employs a weighted voting system to ensure that each AI model's c
 - [Future Work](#future-work)
 - [Acknowledgments](#acknowledgments)
 
-## Installation
+sh Copy code python -m venv venv source venv/bin/activate # On Windows, use venv\Scripts\activate pip install -r requirements.txt Add Your API Keys: Create a .env file in the project root and add your API keys:
 
-1. **Clone the Repository**:
-   ```sh
-   git clone https://github.com/KillStreakBlank/AI-Council.git
-   cd AI-Council
-Set Up a Virtual Environment and Install Dependencies:
+plaintext Copy code OPENAI_API_KEY=your_openai_api_key GROK_API_KEY=your_grok_api_key OLLAMA_API_KEY=your_ollama_api_key BARD_API_KEY=your_bard_api_key CHATGPT_API_KEY=your_chatgpt_api_key WATSON_API_KEY=your_watson_api_key CLAUDE_API_KEY=your_claude_api_key Usage To run the AI Council system:
 
-sh
-Copy code
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-pip install -r requirements.txt
-Add Your API Keys:
-Create a .env file in the project root and add your API keys:
+sh Copy code python main.py Example Task You can input tasks for the AI Council to solve. For example:
 
-plaintext
-Copy code
-OPENAI_API_KEY=your_openai_api_key
-GROK_API_KEY=your_grok_api_key
-OLLAMA_API_KEY=your_ollama_api_key
-BARD_API_KEY=your_bard_api_key
-CHATGPT_API_KEY=your_chatgpt_api_key
-WATSON_API_KEY=your_watson_api_key
-CLAUDE_API_KEY=your_claude_api_key
-Usage
-To run the AI Council system:
+python Copy code task = "Find the Meaning of Life." task_skills = ["Philosophy", "AI"] best_solution = council.handle_task(task, task_skills) print(best_solution) Contributing We welcome contributions! Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
 
-sh
-Copy code
-python main.py
-Example Task
-You can input tasks for the AI Council to solve. For example:
+How to Contribute Fork the Repository: Click on the 'Fork' button on the top right corner of this page to fork the repository. Clone Your Fork: Clone your forked repository to your local machine. sh Copy code git clone https://github.com/KillStreakBlank/AI-Council.git cd AI-Council Create a Branch: Create a new branch for your feature or bug fix. sh Copy code git checkout -b feature-name Make Your Changes: Make your changes to the codebase. Commit Your Changes: Commit your changes with a descriptive commit message. sh Copy code git commit -m "Description of the changes made" Push to Your Fork: Push your changes to your forked repository. sh Copy code git push origin feature-name Create a Pull Request: Go to the original repository on GitHub and create a pull request from your fork and branch. License This project is licensed under the MIT License - see the LICENSE file for details.
 
-python
-Copy code
-task = "Find the Meaning of Life."
-task_skills = ["Philosophy", "AI"]
-best_solution = council.handle_task(task, task_skills)
-print(best_solution)
-Contributing
-We welcome contributions! Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
+Contact For any questions or suggestions, feel free to open an issue or contact me at coleman.jeremy80@gmail.com.
 
-How to Contribute
-Fork the Repository: Click on the 'Fork' button on the top right corner of this page to fork the repository.
-Clone Your Fork: Clone your forked repository to your local machine.
-sh
-Copy code
-git clone https://github.com/KillStreakBlank/AI-Council.git
-cd AI-Council
-Create a Branch: Create a new branch for your feature or bug fix.
-sh
-Copy code
-git checkout -b feature-name
-Make Your Changes: Make your changes to the codebase.
-Commit Your Changes: Commit your changes with a descriptive commit message.
-sh
-Copy code
-git commit -m "Description of the changes made"
-Push to Your Fork: Push your changes to your forked repository.
-sh
-Copy code
-git push origin feature-name
-Create a Pull Request: Go to the original repository on GitHub and create a pull request from your fork and branch.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Contact
-For any questions or suggestions, feel free to open an issue or contact me at coleman.jeremy80@gmail.com.
-
-Project Goals
-Improve Collaborative Decision-Making: Enhance the ability of AI models to collaboratively solve complex tasks.
-Leverage Diverse AI Strengths: Utilize the unique strengths of different AI models to create robust solutions.
-Develop Weighted Voting System: Create a dynamic system that adjusts the influence of each AI model based on performance and expertise.
-Technologies Used
-Programming Language: Python
-AI Models: GPT-4, Codex, Grok, Ollama, Bard, ChatGPT, Watson, Claude
-APIs: Various AI model APIs
-Libraries: Requests, dotenv, other relevant Python libraries
-Future Work
-Expand AI Model Integration: Add more AI models and improve the interaction between them.
-Enhance Debate Mechanism: Develop more sophisticated debate and critique capabilities.
-Optimize Voting Algorithm: Refine the weighted voting system for better decision-making.
-Acknowledgments
-OpenAI: For providing GPT-4, Codex, and ChatGPT
-Google: For providing Bard
-IBM: For providing Watson
-Other Contributors: For their contributions to AI research and development
+Project Goals Improve Collaborative Decision-Making: Enhance the ability of AI models to collaboratively solve complex tasks. Leverage Diverse AI Strengths: Utilize the unique strengths of different AI models to create robust solutions. Develop Weighted Voting System: Create a dynamic system that adjusts the influence of each AI model based on performance and expertise. Technologies Used Programming Language: Python AI Models: GPT-4, Codex, Grok, Ollama, Bard, ChatGPT, Watson, Claude APIs: Various AI model APIs Libraries: Requests, dotenv, other relevant Python libraries Future Work Expand AI Model Integration: Add more AI models and improve the interaction between them. Enhance Debate Mechanism: Develop more sophisticated debate and critique capabilities. Optimize Voting Algorithm: Refine the weighted voting system for better decision-making. Acknowledgments OpenAI: For providing GPT-4, Codex, and ChatGPT Google: For providing Bard IBM: For providing Watson Other Contributors: For their contributions to AI research and development
