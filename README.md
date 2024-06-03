@@ -29,7 +29,6 @@ The AI Council employs a weighted voting system to ensure that each AI model's c
    git clone https://github.com/KillStreakBlank/AI-Council.git
    cd AI-Council
 Set Up a Virtual Environment and Install Dependencies:
-
 sh
 Copy code
 python -m venv venv
