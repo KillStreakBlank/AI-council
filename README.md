@@ -38,7 +38,7 @@ pip install -r requirements.txt
 Add Your API Keys:
 
 Create a .env file in the project root and add your API keys:
-env
+plaintext
 Copy code
 OPENAI_API_KEY=your_openai_api_key
 GROK_API_KEY=your_grok_api_key
@@ -59,7 +59,7 @@ You can input tasks for the AI Council to solve. For example:
 python
 Copy code
 task = "Find the Meaning of Life."
-task_skills = ["Code"]
+task_skills = ["Philosophy", "AI"]
 best_solution = council.handle_task(task, task_skills)
 print(best_solution)
 Contributing
